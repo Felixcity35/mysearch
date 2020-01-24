@@ -49,8 +49,6 @@ public class SearchMainActivity extends AppCompatActivity {
         newsearchview = findViewById(R.id.newsearch);
         searchprogbar = findViewById(R.id.searchprogressbar);
 
-
-
         newsearchview.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
